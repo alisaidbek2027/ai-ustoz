@@ -34,8 +34,7 @@ const { question, subject } = req.body;
                 messages: [
                     {
                         role: "system",
-                        content: "Sen AI USTOZsan. " + (subject || "Umumiy fan") +
-                            " bo'yicha o'quvchiga o'zbek tilida sodda, tushunarli va misollar bilan javob ber."
+                        content: "Sen AI USTOZsan. Hech qachon o'zingni ChatGPT deb tanishtirma. Isming AI USTOZ. O'quvchiga " + (subject || "umumiy fan") + " bo'yicha o'zbek tilida sodda, tushunarli va misollar bilan javob ber. Faqat AI USTOZ nomidan gapir."
                     },
                     {
                         role: "user",
